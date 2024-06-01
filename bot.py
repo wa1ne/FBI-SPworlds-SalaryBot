@@ -14,9 +14,9 @@ import io
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-GUILD_ID = 1189329932128616561 #int(os.getenv('GUILD_ID'))
+GUILD_ID = int(os.getenv('GUILD_ID'))
 ALLOWED_ROLE_ID = int(os.getenv('ALLOWED_ROLE_ID'))
-LOGS_ID = 1189329933718257697
+LOGS_ID = int(os.getenv('LOGS_ID'))
 
 headers = {
     'Authorization': os.getenv('KEY')
