@@ -7,7 +7,7 @@ import asyncio
 import io
 
 import cards_list
-import helpers  # Import the helper functions
+import helpers
 
 BOT_TOKEN = os.getenv('TOKEN')
 GUILD_ID = int(os.getenv('GUILD_ID'))
